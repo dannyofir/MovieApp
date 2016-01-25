@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Movies</string>
+    <string name="delete_all">Delete All</string>
+    <string name="exit">Exit</string>
+    <string name="add_movie_manually">Add Movie Manually</string>
+    <string name="add_movie_through_internet">Add Movie Through Internet</string>
+    <string name="movie_name">Movie Name</string>
+    <string name="year">Year</string>
+    <string name="rating">Rating</string>
+    <string name="runtime">Runtime</string>
+    <string name="genre">Genre</string>
+    <string name="director">"Director: "</string>
+    <string name="actors">"Actors "</string>
+    <string name="image_url">Image URL: </string>
+    <string name="movie_plot">Movie Plot</string>
+    <string name="show">Show</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="search">Search: </string>
+    <string name="go">Go</string>
+</resources>

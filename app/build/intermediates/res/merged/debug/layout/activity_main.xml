@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.dannyofir.www.movieapp.MainActivity">
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textViewMyMovies"-->
+            <!--style="@style/appText"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="My Movies"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_margin="5dp"/>-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/imageButtonOptions"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:background="@drawable/options_icon"-->
+            <!--android:onClick="imageButtonOptions_onClick"/>-->
+
+    <!--</LinearLayout>-->
+
+    <ListView
+        android:id="@+id/listViewMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"></ListView>
+
+    <ImageButton
+        android:id="@+id/imageButtonAddMovie"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="bottom|center"
+        android:background="@drawable/add_movie_icon"
+        android:onClick="imageButtonAddMovie_onClick"/>
+
+
+</LinearLayout>

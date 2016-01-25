@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/addManual"
+        android:title="@string/add_movie_manually" />
+
+    <item android:id="@+id/addInternet"
+        android:title="@string/add_movie_through_internet" />
+
+</menu>
